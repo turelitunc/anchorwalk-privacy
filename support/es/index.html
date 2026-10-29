@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Soporte de Anchorwalk</title>
+<style>
+:root { color-scheme: light dark; --bg: #f7edec; --fg: #2e1f2b; --muted: #6a5563;
+  --line: #dbcac8; --link: #7a3e6c; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1e151c; --fg: #f4e8ef; --muted: #d3bfcb; --line: #4b3c48;
+    --link: #f6c6a8; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 24px 16px 64px; }
+nav { font-size: 15px; color: var(--muted); border-bottom: 1px solid var(--line);
+  padding-bottom: 12px; margin-bottom: 8px; }
+nav a, nav span { margin-right: 14px; }
+nav .other { padding-left: 14px; border-left: 1px solid var(--line); }
+a { color: var(--link); }
+h1 { font-size: 1.7rem; line-height: 1.25; margin: 24px 0 8px; }
+h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+ul { padding-left: 1.3rem; }
+li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../en/" lang="en" hreflang="en">English</a><a href="../tr/" lang="tr" hreflang="tr">Türkçe</a><span lang="es">Español</span><a href="../pt/" lang="pt" hreflang="pt">Português</a><a class="other" href="../../es/">Política de privacidad</a></nav>
+<h1>Soporte de Anchorwalk</h1>
+<p>Anchorwalk lo hace una sola persona, Tunç Türeli. Si algo no funciona como debería, o tienes una pregunta o una idea, escríbeme.</p>
+<h2>Contacto</h2>
+<p>Correo: <a href="mailto:anchorwalk.support@gmail.com">anchorwalk.support@gmail.com</a></p>
+<p>Lo más fácil es escribir desde la app: abre el menú, luego "Acerca de" › "Comentarios y sugerencias", escribe tu mensaje y toca "Enviar". Se abre tu app de correo con el mensaje. La app agrega su versión, su idioma y la versión del sistema de tu teléfono (en iPhone, también el modelo del dispositivo), y sus errores recientes solo si marcas "Agregar detalles técnicos". No se agrega nada de tus registros.</p>
+<p>Si escribes desde otro lugar, incluye el modelo de tu teléfono, su versión de Android o iOS, la versión de la app (al final de "Acerca de") y qué pasó.</p>
+<p>Leo todos los mensajes.</p>
+<h2>Preguntas frecuentes</h2>
+<h3>¿Dónde se guardan mis registros?</h3>
+<p>Solo en tu teléfono. No hay cuenta ni servidor, así que no hay nada que yo pueda recuperar por ti, y los registros tampoco están en las copias de seguridad del teléfono. Expórtalos antes de cambiar o restablecer tu teléfono.</p>
+<h3>¿Cómo paso a un teléfono nuevo?</h3>
+<p>En el teléfono anterior, usa "Mis datos" › "Exportar" y guarda el archivo en un lugar desde donde puedas abrirlo en el teléfono nuevo. En el nuevo, instala Anchorwalk y usa "Mis datos" › "Importar". Funciona entre Android y iPhone en los dos sentidos. Al importar se borran los datos del teléfono nuevo y en su lugar quedan los del archivo.</p>
+<h3>No llegan la pregunta de la noche ni los avisos de la sesión de enfoque</h3>
+<p>Primero revisa que las notificaciones de Anchorwalk estén permitidas en la configuración de tu teléfono.</p>
+<ul>
+<li>iPhone: la pregunta de la noche es una notificación normal, así que un modo de Enfoque, como No molestar, puede silenciarla; puedes agregar Anchorwalk a las apps que ese Enfoque permite. Los avisos de la sesión de enfoque son urgentes, así que pueden llegar aunque haya un Enfoque activado, salvo que hayas desactivado "Notificaciones urgentes" en Configuración › Notificaciones › Anchorwalk.</li>
+<li>Android: si Android restringe Anchorwalk en segundo plano, la pregunta de la noche puede llegar tarde; deja el uso de batería de la app sin restricciones (en Samsung: Ajustes › Aplicaciones › Anchorwalk › Batería). Para recibir a tiempo los avisos de la sesión de enfoque, permite "Alarmas y recordatorios"; mientras esté desactivado, la pantalla "Sesión de enfoque" te ofrece llevarte allí.</li>
+</ul>
+<h3>¿Cómo cambio el idioma de la app?</h3>
+<ul>
+<li>iPhone: Configuración › Apps › Anchorwalk › Idioma (en iOS 16 y 17, Configuración › Anchorwalk › Idioma). Si no aparece Idioma, primero agrega otro idioma en Configuración › General › Idioma y región.</li>
+<li>Android 13 y posteriores: en la app, "Acerca de" › "Idioma". En versiones anteriores, la app usa el idioma del teléfono.</li>
+</ul>
+<h3>¿Cómo lo borro todo?</h3>
+<p>En "Mis datos" › "Borrar todo", toca "Borrar todos los datos": se borran del teléfono todos tus registros y ajustes cuando lo confirmas; no se puede deshacer. Desinstalar la app también lo borra todo. Los archivos que exportaste no se borran; si ya no los quieres, bórralos tú.</p>
+<h3>¿La app de iPhone detecta por sí sola cuando camino de un lado a otro?</h3>
+<p>No. En iPhone, Anchorwalk no usa los sensores de movimiento: cuando te descubras soñando despierto, toca "Marcar" y guarda el momento, o responde la pregunta de la noche con el total del día. Solo la app de Android detecta por sí sola cuando caminas de un lado a otro o te balanceas.</p>
+<h2>No es un dispositivo médico</h2>
+<p>Anchorwalk no es un dispositivo médico; no diagnostica ni trata ninguna afección. Si soñar despierto te dificulta el día a día, hablar con un psicólogo o psiquiatra puede ayudar. Si estás en peligro o necesitas ayuda urgente, comunícate con los servicios de emergencia de tu zona.</p>
+<h2>Privacidad</h2>
+<p>Qué registra la app y dónde se guarda: <a href="../../es/">Política de privacidad</a>.</p>
+</main>
+</body>
+</html>
